@@ -8,7 +8,8 @@ An iOS open source client for GitHub.
 ## Setup
 
 1. Git clone the project `git clone git@github.com:carambalabs/todogit.git`.
-2. Open the workspace `open Todogit.xcworkspace`
+2. Run `scrip/bootsrap`.
+3. Open the workspace `open Todogit.xcworkspace`
 
 ## About
 
