@@ -1,5 +1,5 @@
 repository:
-  name: todogit-ios
+  name: todogit-desktop
   description: A GitHub open source client for iOS
   homepage: https://todogit.io
   private: true
@@ -11,4 +11,36 @@ repository:
   allow_merge_commit: true
   allow_rebase_merge: true
 labels:
+  - name: difficulty:easy
+    color: d93f0b
+  - name: difficulty:moderate
+    color: d93f0b
+  - name: difficulty:hard
+    color: d93f0b
+  - name: priority:low
+    color: fbca04
+  - name: priority:medium
+    color: fbca04
+  - name: priority:high
+    color: fbca04
+  - name: status:blocked
+    color: 0e8a16
+  - name: status:ready-development
+    color: 0e8a16
+  - name: status:wip
+    color: 0e8a16
+  - name: status:waiting-input
+    color: 0e8a16
+  - name: status:waiting-review
+    color: 0e8a16
+  - name: type:bug
+    color: 1d76db
+  - name: type:enhancement
+    color: 1d76db
+  - name: type:feature
+    color: 1d76db
+  - name: type:tech-debt
+    color: 1d76db
+  - name: type:thread
+    color: 1d76db
 collaborators:
