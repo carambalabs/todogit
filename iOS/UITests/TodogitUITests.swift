@@ -1,11 +1,3 @@
-//
-//  TodogitUITests.swift
-//  TodogitUITests
-//
-//  Created by Pedro Piñera Buendía on 14.09.17.
-//  Copyright © 2017 Caramba. All rights reserved.
-//
-
 import XCTest
 
 class TodogitUITests: XCTestCase {

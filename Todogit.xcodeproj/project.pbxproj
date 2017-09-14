@@ -7,13 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0400BA9D1F6A5823004DCB0D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0400BA9C1F6A5823004DCB0D /* AppDelegate.swift */; };
-		0400BA9F1F6A5823004DCB0D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0400BA9E1F6A5823004DCB0D /* ViewController.swift */; };
-		0400BAA21F6A5823004DCB0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0400BAA01F6A5823004DCB0D /* Main.storyboard */; };
-		0400BAA41F6A5823004DCB0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0400BAA31F6A5823004DCB0D /* Assets.xcassets */; };
-		0400BAA71F6A5823004DCB0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0400BAA51F6A5823004DCB0D /* LaunchScreen.storyboard */; };
-		0400BAB21F6A5823004DCB0D /* TodogitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0400BAB11F6A5823004DCB0D /* TodogitTests.swift */; };
-		0400BABD1F6A5823004DCB0D /* TodogitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0400BABC1F6A5823004DCB0D /* TodogitUITests.swift */; };
+		04CC70FF1F6A8B4D00A19A03 /* TodogitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CC70FA1F6A8B1E00A19A03 /* TodogitTests.swift */; };
+		04CC710C1F6A8BFE00A19A03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04CC71061F6A8B9300A19A03 /* LaunchScreen.storyboard */; };
+		04CC710D1F6A8C0000A19A03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04CC71081F6A8B9300A19A03 /* Main.storyboard */; };
+		04CC710E1F6A8C0400A19A03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04CC71041F6A8B9300A19A03 /* Assets.xcassets */; };
+		04CC710F1F6A8C0700A19A03 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CC71011F6A8B9300A19A03 /* ViewController.swift */; };
+		04CC71101F6A8C0A00A19A03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CC710B1F6A8B9300A19A03 /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,18 +34,18 @@
 
 /* Begin PBXFileReference section */
 		0400BA991F6A5823004DCB0D /* Todogit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Todogit.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		0400BA9C1F6A5823004DCB0D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0400BA9E1F6A5823004DCB0D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0400BAA11F6A5823004DCB0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		0400BAA31F6A5823004DCB0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		0400BAA61F6A5823004DCB0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		0400BAA81F6A5823004DCB0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0400BAAD1F6A5823004DCB0D /* TodogitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TodogitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0400BAB11F6A5823004DCB0D /* TodogitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodogitTests.swift; sourceTree = "<group>"; };
-		0400BAB31F6A5823004DCB0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0400BAB81F6A5823004DCB0D /* TodogitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TodogitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0400BABC1F6A5823004DCB0D /* TodogitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodogitUITests.swift; sourceTree = "<group>"; };
-		0400BABE1F6A5823004DCB0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04CC70F01F6A8B1E00A19A03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04CC70FA1F6A8B1E00A19A03 /* TodogitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodogitTests.swift; sourceTree = "<group>"; };
+		04CC70FB1F6A8B1E00A19A03 /* Tests.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Tests.plist; sourceTree = "<group>"; };
+		04CC70FD1F6A8B1E00A19A03 /* TodogitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodogitUITests.swift; sourceTree = "<group>"; };
+		04CC70FE1F6A8B1E00A19A03 /* UITests.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = UITests.plist; sourceTree = "<group>"; };
+		04CC71011F6A8B9300A19A03 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		04CC71041F6A8B9300A19A03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04CC71071F6A8B9300A19A03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04CC71091F6A8B9300A19A03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04CC710B1F6A8B9300A19A03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,9 +76,7 @@
 		0400BA901F6A5822004DCB0D = {
 			isa = PBXGroup;
 			children = (
-				0400BA9B1F6A5823004DCB0D /* Todogit */,
-				0400BAB01F6A5823004DCB0D /* TodogitTests */,
-				0400BABB1F6A5823004DCB0D /* TodogitUITests */,
+				04CC70EF1F6A8B1E00A19A03 /* iOS */,
 				0400BA9A1F6A5823004DCB0D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -94,35 +91,85 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0400BA9B1F6A5823004DCB0D /* Todogit */ = {
+		04CC70EF1F6A8B1E00A19A03 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				0400BA9C1F6A5823004DCB0D /* AppDelegate.swift */,
-				0400BA9E1F6A5823004DCB0D /* ViewController.swift */,
-				0400BAA01F6A5823004DCB0D /* Main.storyboard */,
-				0400BAA31F6A5823004DCB0D /* Assets.xcassets */,
-				0400BAA51F6A5823004DCB0D /* LaunchScreen.storyboard */,
-				0400BAA81F6A5823004DCB0D /* Info.plist */,
+				04CC70F01F6A8B1E00A19A03 /* Info.plist */,
+				04CC70FB1F6A8B1E00A19A03 /* Tests.plist */,
+				04CC70FE1F6A8B1E00A19A03 /* UITests.plist */,
+				04CC70F11F6A8B1E00A19A03 /* Sources */,
+				04CC70F91F6A8B1E00A19A03 /* Tests */,
+				04CC70FC1F6A8B1E00A19A03 /* UITests */,
 			);
-			path = Todogit;
+			path = iOS;
 			sourceTree = "<group>";
 		};
-		0400BAB01F6A5823004DCB0D /* TodogitTests */ = {
+		04CC70F11F6A8B1E00A19A03 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				0400BAB11F6A5823004DCB0D /* TodogitTests.swift */,
-				0400BAB31F6A5823004DCB0D /* Info.plist */,
+				04CC710A1F6A8B9300A19A03 /* App */,
+				04CC71001F6A8B9300A19A03 /* Features */,
+				04CC71021F6A8B9300A19A03 /* Resources */,
 			);
-			path = TodogitTests;
+			path = Sources;
 			sourceTree = "<group>";
 		};
-		0400BABB1F6A5823004DCB0D /* TodogitUITests */ = {
+		04CC70F91F6A8B1E00A19A03 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				0400BABC1F6A5823004DCB0D /* TodogitUITests.swift */,
-				0400BABE1F6A5823004DCB0D /* Info.plist */,
+				04CC70FA1F6A8B1E00A19A03 /* TodogitTests.swift */,
 			);
-			path = TodogitUITests;
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		04CC70FC1F6A8B1E00A19A03 /* UITests */ = {
+			isa = PBXGroup;
+			children = (
+				04CC70FD1F6A8B1E00A19A03 /* TodogitUITests.swift */,
+			);
+			path = UITests;
+			sourceTree = "<group>";
+		};
+		04CC71001F6A8B9300A19A03 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				04CC71011F6A8B9300A19A03 /* ViewController.swift */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		04CC71021F6A8B9300A19A03 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				04CC71031F6A8B9300A19A03 /* Images */,
+				04CC71051F6A8B9300A19A03 /* Storyboards */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		04CC71031F6A8B9300A19A03 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				04CC71041F6A8B9300A19A03 /* Assets.xcassets */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		04CC71051F6A8B9300A19A03 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				04CC71061F6A8B9300A19A03 /* LaunchScreen.storyboard */,
+				04CC71081F6A8B9300A19A03 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		04CC710A1F6A8B9300A19A03 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				04CC710B1F6A8B9300A19A03 /* AppDelegate.swift */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,9 +279,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0400BAA71F6A5823004DCB0D /* LaunchScreen.storyboard in Resources */,
-				0400BAA41F6A5823004DCB0D /* Assets.xcassets in Resources */,
-				0400BAA21F6A5823004DCB0D /* Main.storyboard in Resources */,
+				04CC710C1F6A8BFE00A19A03 /* LaunchScreen.storyboard in Resources */,
+				04CC710E1F6A8C0400A19A03 /* Assets.xcassets in Resources */,
+				04CC710D1F6A8C0000A19A03 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +306,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0400BA9F1F6A5823004DCB0D /* ViewController.swift in Sources */,
-				0400BA9D1F6A5823004DCB0D /* AppDelegate.swift in Sources */,
+				04CC71101F6A8C0A00A19A03 /* AppDelegate.swift in Sources */,
+				04CC710F1F6A8C0700A19A03 /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +315,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0400BAB21F6A5823004DCB0D /* TodogitTests.swift in Sources */,
+				04CC70FF1F6A8B4D00A19A03 /* TodogitTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +323,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0400BABD1F6A5823004DCB0D /* TodogitUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,20 +342,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		0400BAA01F6A5823004DCB0D /* Main.storyboard */ = {
+		04CC71061F6A8B9300A19A03 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				0400BAA11F6A5823004DCB0D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		0400BAA51F6A5823004DCB0D /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0400BAA61F6A5823004DCB0D /* Base */,
+				04CC71071F6A8B9300A19A03 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		04CC71081F6A8B9300A19A03 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04CC71091F6A8B9300A19A03 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -411,8 +457,7 @@
 		0400BAC21F6A5823004DCB0D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = Todogit/Info.plist;
+				INFOPLIST_FILE = iOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.caramba.Todogit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -423,8 +468,7 @@
 		0400BAC31F6A5823004DCB0D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = Todogit/Info.plist;
+				INFOPLIST_FILE = iOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.caramba.Todogit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -437,7 +481,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = TodogitTests/Info.plist;
+				INFOPLIST_FILE = iOS/Tests.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.caramba.TodogitTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -451,7 +495,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = TodogitTests/Info.plist;
+				INFOPLIST_FILE = iOS/Tests.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.caramba.TodogitTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -464,7 +508,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				INFOPLIST_FILE = TodogitUITests/Info.plist;
+				INFOPLIST_FILE = iOS/UITests.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.caramba.TodogitUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -477,7 +521,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				INFOPLIST_FILE = TodogitUITests/Info.plist;
+				INFOPLIST_FILE = iOS/UITests.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.caramba.TodogitUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -505,6 +549,7 @@
 				0400BAC31F6A5823004DCB0D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0400BAC41F6A5823004DCB0D /* Build configuration list for PBXNativeTarget "TodogitTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +558,7 @@
 				0400BAC61F6A5823004DCB0D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0400BAC71F6A5823004DCB0D /* Build configuration list for PBXNativeTarget "TodogitUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +567,7 @@
 				0400BAC91F6A5823004DCB0D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
