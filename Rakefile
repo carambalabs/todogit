@@ -13,7 +13,7 @@ def build(scheme, action, destination)
     system(command.join(" "))
 end
 
-task :default => :build:all
+task :default => "build:all"
 
 namespace :build do
     task :ios do
