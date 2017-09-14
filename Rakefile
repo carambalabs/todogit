@@ -30,3 +30,8 @@ namespace :test do
         build("macOS", "clean test", MACOS_DESTINATION)
     end
 end
+
+task :ci do
+    Rake::Task["test:ios"].invoke
+    Rake::Task["test:macos"].invoke
+end

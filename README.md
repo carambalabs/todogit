@@ -2,6 +2,7 @@ Todogit
 =========
 
 [![Build Status](https://travis-ci.org/carambalabs/todogit.svg?branch=master)](https://travis-ci.org/carambalabs/todogit)
+[![codecov](https://codecov.io/gh/carambalabs/todogit/branch/master/graph/badge.svg)](https://codecov.io/gh/carambalabs/todogit)
 
 An iOS and macOS open source client for GitHub.
 
