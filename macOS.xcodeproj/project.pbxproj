@@ -11,6 +11,10 @@
 		041DA25C1F6AD7DE001AA68E /* TodoKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 041DA25A1F6AD7D7001AA68E /* TodoKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		041DA2601F6AD803001AA68E /* TodoKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 041DA25A1F6AD7D7001AA68E /* TodoKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		041DA2621F6AD817001AA68E /* TodoKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 041DA25A1F6AD7D7001AA68E /* TodoKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		041DA2711F6AE456001AA68E /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 041DA2701F6AE450001AA68E /* Sparkle.framework */; };
+		041DA2721F6AE456001AA68E /* Sparkle.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 041DA2701F6AE450001AA68E /* Sparkle.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		041DA2731F6AE45E001AA68E /* Sparkle.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 041DA2701F6AE450001AA68E /* Sparkle.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		041DA2741F6AE462001AA68E /* Sparkle.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 041DA2701F6AE450001AA68E /* Sparkle.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		04A45C6D1F6A8F65000E5988 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04A45C6B1F6A8F5C000E5988 /* MainMenu.xib */; };
 		04A45C6E1F6A8F68000E5988 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04A45C691F6A8F5C000E5988 /* Assets.xcassets */; };
 		04A45C6F1F6A8F6C000E5988 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A45C661F6A8F5C000E5988 /* AppDelegate.swift */; };
@@ -43,6 +47,7 @@
 			dstSubfolderSpec = 10;
 			files = (
 				041DA25C1F6AD7DE001AA68E /* TodoKit.framework in Embed Frameworks */,
+				041DA2721F6AE456001AA68E /* Sparkle.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -54,6 +59,7 @@
 			dstSubfolderSpec = 10;
 			files = (
 				041DA2601F6AD803001AA68E /* TodoKit.framework in Embed Frameworks */,
+				041DA2731F6AE45E001AA68E /* Sparkle.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -65,6 +71,7 @@
 			dstSubfolderSpec = 10;
 			files = (
 				041DA2621F6AD817001AA68E /* TodoKit.framework in Embed Frameworks */,
+				041DA2741F6AE462001AA68E /* Sparkle.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -73,6 +80,7 @@
 
 /* Begin PBXFileReference section */
 		041DA25A1F6AD7D7001AA68E /* TodoKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = TodoKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		041DA2701F6AE450001AA68E /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Sparkle.framework; path = Frameworks/External/Sparkle/Sparkle.framework; sourceTree = "<group>"; };
 		04A45C331F6A8EB8000E5988 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		04A45C351F6A8EB8000E5988 /* Common.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Common.xcconfig; sourceTree = "<group>"; };
 		04A45C371F6A8EB8000E5988 /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
@@ -120,6 +128,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				041DA25B1F6AD7DE001AA68E /* TodoKit.framework in Frameworks */,
+				041DA2711F6AE456001AA68E /* Sparkle.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,6 +152,7 @@
 		041DA2581F6AD7D7001AA68E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				041DA2701F6AE450001AA68E /* Sparkle.framework */,
 				041DA25A1F6AD7D7001AA68E /* TodoKit.framework */,
 			);
 			name = Frameworks;
@@ -653,6 +663,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks/External/Sparkle",
+				);
 				INFOPLIST_FILE = macOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.caramba.Todogit;
@@ -666,6 +680,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks/External/Sparkle",
+				);
 				INFOPLIST_FILE = macOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.caramba.Todogit;
