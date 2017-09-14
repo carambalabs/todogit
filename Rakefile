@@ -10,7 +10,7 @@ def build(scheme, action, destination)
     command << "-destination '#{destination}'"        
     command << action
     command << "| xcpretty"
-    system(command.join(" ")) or exit!(1)
+    sh(command.join(" "))
 end
 
 task :default => "build:all"
