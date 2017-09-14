@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		041DA25B1F6AD7DE001AA68E /* TodoKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 041DA25A1F6AD7D7001AA68E /* TodoKit.framework */; };
+		041DA25C1F6AD7DE001AA68E /* TodoKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 041DA25A1F6AD7D7001AA68E /* TodoKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		041DA2601F6AD803001AA68E /* TodoKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 041DA25A1F6AD7D7001AA68E /* TodoKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		041DA2621F6AD817001AA68E /* TodoKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 041DA25A1F6AD7D7001AA68E /* TodoKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		04A45C6D1F6A8F65000E5988 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04A45C6B1F6A8F5C000E5988 /* MainMenu.xib */; };
 		04A45C6E1F6A8F68000E5988 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04A45C691F6A8F5C000E5988 /* Assets.xcassets */; };
 		04A45C6F1F6A8F6C000E5988 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A45C661F6A8F5C000E5988 /* AppDelegate.swift */; };
@@ -31,7 +35,44 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		041DA25D1F6AD7DE001AA68E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				041DA25C1F6AD7DE001AA68E /* TodoKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		041DA25F1F6AD7F6001AA68E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				041DA2601F6AD803001AA68E /* TodoKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		041DA2611F6AD80B001AA68E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				041DA2621F6AD817001AA68E /* TodoKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		041DA25A1F6AD7D7001AA68E /* TodoKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = TodoKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		04A45C331F6A8EB8000E5988 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		04A45C351F6A8EB8000E5988 /* Common.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Common.xcconfig; sourceTree = "<group>"; };
 		04A45C371F6A8EB8000E5988 /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
@@ -78,6 +119,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				041DA25B1F6AD7DE001AA68E /* TodoKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,6 +140,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		041DA2581F6AD7D7001AA68E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				041DA25A1F6AD7D7001AA68E /* TodoKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		04A45C321F6A8EB8000E5988 /* xcconfigs */ = {
 			isa = PBXGroup;
 			children = (
@@ -198,8 +248,7 @@
 				04A45C5F1F6A8F04000E5988 /* Tests */,
 				04A45C591F6A8EFB000E5988 /* Sources */,
 			);
-			name = macOS;
-			path = "New Group";
+			path = macOS;
 			sourceTree = "<group>";
 		};
 		04A45C591F6A8EFB000E5988 /* Sources */ = {
@@ -278,6 +327,7 @@
 				04A45C581F6A8ED3000E5988 /* macOS */,
 				04A45C321F6A8EB8000E5988 /* xcconfigs */,
 				04CC713E1F6A8DB100A19A03 /* Products */,
+				041DA2581F6AD7D7001AA68E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -302,6 +352,7 @@
 				04CC713A1F6A8DB100A19A03 /* Frameworks */,
 				04CC713B1F6A8DB100A19A03 /* Resources */,
 				04A45C771F6AD45F000E5988 /* Linting */,
+				041DA25D1F6AD7DE001AA68E /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -319,6 +370,7 @@
 				04CC71491F6A8DB100A19A03 /* Sources */,
 				04CC714A1F6A8DB100A19A03 /* Frameworks */,
 				04CC714B1F6A8DB100A19A03 /* Resources */,
+				041DA25F1F6AD7F6001AA68E /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -337,6 +389,7 @@
 				04CC71541F6A8DB100A19A03 /* Sources */,
 				04CC71551F6A8DB100A19A03 /* Frameworks */,
 				04CC71561F6A8DB100A19A03 /* Resources */,
+				041DA2611F6AD80B001AA68E /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
