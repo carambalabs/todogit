@@ -254,7 +254,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 0400BA941F6A5823004DCB0D /* Build configuration list for PBXProject "Todogit" */;
+			buildConfigurationList = 0400BA941F6A5823004DCB0D /* Build configuration list for PBXProject "iOS" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -533,7 +533,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0400BA941F6A5823004DCB0D /* Build configuration list for PBXProject "Todogit" */ = {
+		0400BA941F6A5823004DCB0D /* Build configuration list for PBXProject "iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0400BABF1F6A5823004DCB0D /* Debug */,
