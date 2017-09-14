@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04A45C761F6ACFE2000E5988 /* TodogitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CC70FD1F6A8B1E00A19A03 /* TodogitUITests.swift */; };
 		04CC70FF1F6A8B4D00A19A03 /* TodogitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CC70FA1F6A8B1E00A19A03 /* TodogitTests.swift */; };
 		04CC710C1F6A8BFE00A19A03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04CC71061F6A8B9300A19A03 /* LaunchScreen.storyboard */; };
 		04CC710D1F6A8C0000A19A03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04CC71081F6A8B9300A19A03 /* Main.storyboard */; };
@@ -440,6 +441,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04A45C761F6ACFE2000E5988 /* TodogitUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
