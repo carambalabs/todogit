@@ -1,11 +1,3 @@
-//
-//  ViewController.swift
-//  Todogit
-//
-//  Created by Pedro Piñera Buendía on 14.09.17.
-//  Copyright © 2017 Caramba. All rights reserved.
-//
-
 import UIKit
 
 class ViewController: UIViewController {
@@ -20,6 +12,4 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
 }
-
