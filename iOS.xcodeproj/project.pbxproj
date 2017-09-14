@@ -358,7 +358,6 @@
 				TargetAttributes = {
 					0400BA981F6A5823004DCB0D = {
 						CreatedOnToolsVersion = 8.3.3;
-						ProvisioningStyle = Automatic;
 					};
 					0400BAAC1F6A5823004DCB0D = {
 						CreatedOnToolsVersion = 8.3.3;
@@ -578,10 +577,12 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 04CC711F1F6A8CC500A19A03 /* iOS-Application.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = iOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.caramba.Todogit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -590,10 +591,12 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 04CC711F1F6A8CC500A19A03 /* iOS-Application.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = iOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.caramba.Todogit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -666,7 +669,7 @@
 				0400BAC01F6A5823004DCB0D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		0400BAC11F6A5823004DCB0D /* Build configuration list for PBXNativeTarget "Todogit" */ = {
 			isa = XCConfigurationList;
@@ -675,7 +678,7 @@
 				0400BAC31F6A5823004DCB0D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		0400BAC41F6A5823004DCB0D /* Build configuration list for PBXNativeTarget "TodogitTests" */ = {
 			isa = XCConfigurationList;
@@ -684,7 +687,7 @@
 				0400BAC61F6A5823004DCB0D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		0400BAC71F6A5823004DCB0D /* Build configuration list for PBXNativeTarget "TodogitUITests" */ = {
 			isa = XCConfigurationList;
@@ -693,7 +696,7 @@
 				0400BAC91F6A5823004DCB0D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
