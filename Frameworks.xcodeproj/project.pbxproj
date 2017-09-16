@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		04516F231F6D33330013CFA0 /* KeyValueStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04516F221F6D33330013CFA0 /* KeyValueStore.swift */; };
+		04516F251F6D353A0013CFA0 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04516F241F6D353A0013CFA0 /* Store.swift */; };
+		04516F271F6D356A0013CFA0 /* SecureStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04516F261F6D356A0013CFA0 /* SecureStore.swift */; };
 		047B24001F6C24DB00BD1497 /* GitHubSessionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047B23FF1F6C24DB00BD1497 /* GitHubSessionStore.swift */; };
 		047B24021F6C24F600BD1497 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047B24011F6C24F600BD1497 /* Session.swift */; };
 		047B24041F6C259500BD1497 /* GitHubAuthHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047B24031F6C259500BD1497 /* GitHubAuthHandler.swift */; };
@@ -57,6 +59,8 @@
 		044D7B271F6AD62100C3218B /* TodoKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoKitTests.swift; sourceTree = "<group>"; };
 		044D7B281F6AD62100C3218B /* Tests.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Tests.plist; sourceTree = "<group>"; };
 		04516F221F6D33330013CFA0 /* KeyValueStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyValueStore.swift; sourceTree = "<group>"; };
+		04516F241F6D353A0013CFA0 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		04516F261F6D356A0013CFA0 /* SecureStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureStore.swift; sourceTree = "<group>"; };
 		047B23FF1F6C24DB00BD1497 /* GitHubSessionStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubSessionStore.swift; sourceTree = "<group>"; };
 		047B24011F6C24F600BD1497 /* Session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
 		047B24031F6C259500BD1497 /* GitHubAuthHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubAuthHandler.swift; sourceTree = "<group>"; };
@@ -207,6 +211,8 @@
 			isa = PBXGroup;
 			children = (
 				04516F221F6D33330013CFA0 /* KeyValueStore.swift */,
+				04516F241F6D353A0013CFA0 /* Store.swift */,
+				04516F261F6D356A0013CFA0 /* SecureStore.swift */,
 			);
 			path = Store;
 			sourceTree = "<group>";
@@ -367,7 +373,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04516F251F6D353A0013CFA0 /* Store.swift in Sources */,
 				04516F231F6D33330013CFA0 /* KeyValueStore.swift in Sources */,
+				04516F271F6D356A0013CFA0 /* SecureStore.swift in Sources */,
 				047B24021F6C24F600BD1497 /* Session.swift in Sources */,
 				047B24041F6C259500BD1497 /* GitHubAuthHandler.swift in Sources */,
 				047B24001F6C24DB00BD1497 /* GitHubSessionStore.swift in Sources */,

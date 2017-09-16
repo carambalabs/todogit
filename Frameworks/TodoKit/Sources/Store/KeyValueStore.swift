@@ -2,7 +2,7 @@ import Foundation
 
 // MARK: - KeyValueStore
 
-class KeyValueStore {
+final class KeyValueStore: Store {
     
     // MARK: - Properties
     
