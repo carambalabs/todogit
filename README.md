@@ -12,6 +12,9 @@ An iOS and macOS open source client for GitHub.
 2. Run `scrip/bootsrap`.
 3. Open the workspace `open Todogit.xcworkspace`
 
+## References
+- [ThemeKit](https://github.com/luckymarmot/ThemeKit)
+
 ## About
 
 <img src="https://github.com/carambalabs/Foundation/blob/master/ASSETS/logo-salmon.png?raw=true" width="200" />

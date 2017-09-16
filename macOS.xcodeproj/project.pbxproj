@@ -15,7 +15,12 @@
 		041DA2721F6AE456001AA68E /* Sparkle.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 041DA2701F6AE450001AA68E /* Sparkle.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		041DA2731F6AE45E001AA68E /* Sparkle.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 041DA2701F6AE450001AA68E /* Sparkle.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		041DA2741F6AE462001AA68E /* Sparkle.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 041DA2701F6AE450001AA68E /* Sparkle.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		04A45C6D1F6A8F65000E5988 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04A45C6B1F6A8F5C000E5988 /* MainMenu.xib */; };
+		04516F141F6D2BAB0013CFA0 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04516F131F6D2BAB0013CFA0 /* main.swift */; };
+		04516F161F6D2C540013CFA0 /* HomeWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04516F151F6D2C540013CFA0 /* HomeWindow.swift */; };
+		04516F191F6D2D9F0013CFA0 /* SideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04516F181F6D2D9F0013CFA0 /* SideMenuViewController.swift */; };
+		04516F1B1F6D2DA60013CFA0 /* SideMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04516F1A1F6D2DA60013CFA0 /* SideMenuView.swift */; };
+		047B24071F6D25A800BD1497 /* HomeWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047B24061F6D25A800BD1497 /* HomeWindowController.swift */; };
+		047B240A1F6D26D300BD1497 /* NSWindow+Init.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047B24091F6D26D300BD1497 /* NSWindow+Init.swift */; };
 		04A45C6E1F6A8F68000E5988 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04A45C691F6A8F5C000E5988 /* Assets.xcassets */; };
 		04A45C6F1F6A8F6C000E5988 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A45C661F6A8F5C000E5988 /* AppDelegate.swift */; };
 		04A45C701F6A8F74000E5988 /* TodogitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A45C601F6A8F04000E5988 /* TodogitTests.swift */; };
@@ -81,6 +86,12 @@
 /* Begin PBXFileReference section */
 		041DA25A1F6AD7D7001AA68E /* TodoKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = TodoKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		041DA2701F6AE450001AA68E /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Sparkle.framework; path = Frameworks/External/Sparkle/Sparkle.framework; sourceTree = "<group>"; };
+		04516F131F6D2BAB0013CFA0 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		04516F151F6D2C540013CFA0 /* HomeWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeWindow.swift; sourceTree = "<group>"; };
+		04516F181F6D2D9F0013CFA0 /* SideMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuViewController.swift; sourceTree = "<group>"; };
+		04516F1A1F6D2DA60013CFA0 /* SideMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuView.swift; sourceTree = "<group>"; };
+		047B24061F6D25A800BD1497 /* HomeWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeWindowController.swift; sourceTree = "<group>"; };
+		047B24091F6D26D300BD1497 /* NSWindow+Init.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSWindow+Init.swift"; sourceTree = "<group>"; };
 		04A45C331F6A8EB8000E5988 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		04A45C351F6A8EB8000E5988 /* Common.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Common.xcconfig; sourceTree = "<group>"; };
 		04A45C371F6A8EB8000E5988 /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
@@ -113,7 +124,7 @@
 		04A45C641F6A8F5C000E5988 /* Todogit.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Todogit.entitlements; sourceTree = "<group>"; };
 		04A45C661F6A8F5C000E5988 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04A45C691F6A8F5C000E5988 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		04A45C6C1F6A8F5C000E5988 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		04A45C6C1F6A8F5C000E5988 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/Main.xib; sourceTree = "<group>"; };
 		04A45C721F6A8FDD000E5988 /* Tests.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Tests.plist; path = macOS/Tests.plist; sourceTree = SOURCE_ROOT; };
 		04A45C731F6A8FDD000E5988 /* UITests.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = UITests.plist; path = macOS/UITests.plist; sourceTree = SOURCE_ROOT; };
 		04A45C741F6A8FDD000E5988 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = macOS/Info.plist; sourceTree = SOURCE_ROOT; };
@@ -156,6 +167,32 @@
 				041DA25A1F6AD7D7001AA68E /* TodoKit.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		04516F171F6D2D960013CFA0 /* SideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				04516F181F6D2D9F0013CFA0 /* SideMenuViewController.swift */,
+				04516F1A1F6D2DA60013CFA0 /* SideMenuView.swift */,
+			);
+			path = SideMenu;
+			sourceTree = "<group>";
+		};
+		047B24051F6D259E00BD1497 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				047B24061F6D25A800BD1497 /* HomeWindowController.swift */,
+				04516F151F6D2C540013CFA0 /* HomeWindow.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		047B24081F6D26CB00BD1497 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				047B24091F6D26D300BD1497 /* NSWindow+Init.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		04A45C321F6A8EB8000E5988 /* xcconfigs */ = {
@@ -264,9 +301,13 @@
 		04A45C591F6A8EFB000E5988 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				04516F171F6D2D960013CFA0 /* SideMenu */,
+				047B24081F6D26CB00BD1497 /* Extensions */,
+				047B24051F6D259E00BD1497 /* Home */,
 				04A45C651F6A8F5C000E5988 /* App */,
 				04A45C671F6A8F5C000E5988 /* Resources */,
 				04A45C631F6A8F5C000E5988 /* Support */,
+				04516F131F6D2BAB0013CFA0 /* main.swift */,
 			);
 			name = Sources;
 			path = macOS/Sources;
@@ -326,7 +367,7 @@
 		04A45C6A1F6A8F5C000E5988 /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
-				04A45C6B1F6A8F5C000E5988 /* MainMenu.xib */,
+				04A45C6B1F6A8F5C000E5988 /* Main.xib */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -463,7 +504,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				04A45C6E1F6A8F68000E5988 /* Assets.xcassets in Resources */,
-				04A45C6D1F6A8F65000E5988 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,6 +545,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04516F141F6D2BAB0013CFA0 /* main.swift in Sources */,
+				04516F1B1F6D2DA60013CFA0 /* SideMenuView.swift in Sources */,
+				047B24071F6D25A800BD1497 /* HomeWindowController.swift in Sources */,
+				047B240A1F6D26D300BD1497 /* NSWindow+Init.swift in Sources */,
+				04516F161F6D2C540013CFA0 /* HomeWindow.swift in Sources */,
+				04516F191F6D2D9F0013CFA0 /* SideMenuViewController.swift in Sources */,
 				04A45C6F1F6A8F6C000E5988 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -541,12 +587,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		04A45C6B1F6A8F5C000E5988 /* MainMenu.xib */ = {
+		04A45C6B1F6A8F5C000E5988 /* Main.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				04A45C6C1F6A8F5C000E5988 /* Base */,
 			);
-			name = MainMenu.xib;
+			name = Main.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

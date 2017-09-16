@@ -5,6 +5,7 @@ notifications:
 before_install:
 - bundle install
 - brew upgrade swiftlint
+- brew upgrade carthage
 script:
 - bundle exec rake ci
 after_success:

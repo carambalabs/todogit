@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		044D7B291F6AD62900C3218B /* TodoKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 044D7B251F6AD62100C3218B /* TodoKit.h */; };
+		047B24001F6C24DB00BD1497 /* GitHubSessionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047B23FF1F6C24DB00BD1497 /* GitHubSessionStore.swift */; };
+		047B24021F6C24F600BD1497 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047B24011F6C24F600BD1497 /* Session.swift */; };
+		047B24041F6C259500BD1497 /* GitHubAuthHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047B24031F6C259500BD1497 /* GitHubAuthHandler.swift */; };
 		04A45C8D1F6AD576000E5988 /* TodoKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04A45C831F6AD576000E5988 /* TodoKit.framework */; };
 /* End PBXBuildFile section */
 
@@ -51,9 +53,11 @@
 		0442CD231F6AD71D00645E1F /* watchOS-StaticLibrary.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "watchOS-StaticLibrary.xcconfig"; sourceTree = "<group>"; };
 		0442CD241F6AD76300645E1F /* Universal-Framework.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Universal-Framework.xcconfig"; sourceTree = "<group>"; };
 		044D7B231F6AD62100C3218B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		044D7B251F6AD62100C3218B /* TodoKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TodoKit.h; sourceTree = "<group>"; };
 		044D7B271F6AD62100C3218B /* TodoKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoKitTests.swift; sourceTree = "<group>"; };
 		044D7B281F6AD62100C3218B /* Tests.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Tests.plist; sourceTree = "<group>"; };
+		047B23FF1F6C24DB00BD1497 /* GitHubSessionStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubSessionStore.swift; sourceTree = "<group>"; };
+		047B24011F6C24F600BD1497 /* Session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
+		047B24031F6C259500BD1497 /* GitHubAuthHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubAuthHandler.swift; sourceTree = "<group>"; };
 		04A45C831F6AD576000E5988 /* TodoKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TodoKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		04A45C8C1F6AD576000E5988 /* TodoKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TodoKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -183,7 +187,7 @@
 		044D7B241F6AD62100C3218B /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				044D7B251F6AD62100C3218B /* TodoKit.h */,
+				047B23FE1F6C24C800BD1497 /* Session */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -194,6 +198,16 @@
 				044D7B271F6AD62100C3218B /* TodoKitTests.swift */,
 			);
 			path = Tests;
+			sourceTree = "<group>";
+		};
+		047B23FE1F6C24C800BD1497 /* Session */ = {
+			isa = PBXGroup;
+			children = (
+				047B23FF1F6C24DB00BD1497 /* GitHubSessionStore.swift */,
+				047B24011F6C24F600BD1497 /* Session.swift */,
+				047B24031F6C259500BD1497 /* GitHubAuthHandler.swift */,
+			);
+			path = Session;
 			sourceTree = "<group>";
 		};
 		04A45C791F6AD576000E5988 = {
@@ -221,7 +235,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				044D7B291F6AD62900C3218B /* TodoKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +290,7 @@
 				TargetAttributes = {
 					04A45C821F6AD576000E5988 = {
 						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 					04A45C8B1F6AD576000E5988 = {
@@ -342,6 +356,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				047B24021F6C24F600BD1497 /* Session.swift in Sources */,
+				047B24041F6C259500BD1497 /* GitHubAuthHandler.swift in Sources */,
+				047B24001F6C24DB00BD1497 /* GitHubSessionStore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,6 +499,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0442CD241F6AD76300645E1F /* Universal-Framework.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -492,6 +510,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = io.caramba.TodoKit;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -501,6 +520,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0442CD241F6AD76300645E1F /* Universal-Framework.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -520,6 +540,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0442CD091F6AD71D00645E1F /* Test.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = Frameworks/TodoKit/Tests.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.caramba.TodoKitTests;
@@ -533,6 +554,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0442CD091F6AD71D00645E1F /* Test.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = Frameworks/TodoKit/Tests.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.caramba.TodoKitTests;

@@ -1,16 +1,17 @@
 import Cocoa
 import Sparkle
 
-@NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate {
 
-    @IBOutlet weak var window: NSWindow!
+    var homeWindowController: HomeWindowController!
 
     func applicationDidFinishLaunching(_ aNotification: Notification) {
+        homeWindowController = HomeWindowController()
+        homeWindowController.window?.makeKeyAndOrderFront(nil)
     }
 
-    func applicationWillTerminate(_ aNotification: Notification) {
-        // Insert code here to tear down your application
+    func applicationShouldTerminateAfterLastWindowClosed(_ sender: NSApplication) -> Bool {
+        return true
     }
 
 }
