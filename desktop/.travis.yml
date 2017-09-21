@@ -1,0 +1,53 @@
+
+osx_image: xcode8.3
+dist: trusty
+sudo: false
+language: node_js
+node_js:
+  - 8
+  - 7
+env:
+  global:
+    - ELECTRON_CACHE=$HOME/.cache/electron
+    - ELECTRON_BUILDER_CACHE=$HOME/.cache/electron-builder
+os:
+  - linux
+  # - osx
+cache:
+  yarn: true
+  directories:
+    - node_modules
+    - src/node_modules
+    - $HOME/.cache/electron
+    - $HOME/.cache/electron-builder
+    - $HOME/.npm/_prebuilds
+addons:
+  apt:
+    sources:
+      - ubuntu-toolchain-r-test
+    packages:
+      - g++-4.8
+      - icnsutils
+      - graphicsmagick
+      - xz-utils
+      - xorriso
+      - libsecret-1-0
+install:
+  - export CXX="g++-4.8"
+  - yarn
+  - cd src && yarn && cd ..
+  - "/sbin/start-stop-daemon --start --quiet --pidfile /tmp/custom_xvfb_99.pid --make-pidfile --background --exec /usr/bin/Xvfb -- :99 -ac -screen 0 1280x1024x16"
+before_script:
+  - export DISPLAY=:99.0
+  - sh -e /etc/init.d/xvfb start &
+  - sleep 3
+script:
+  - node --version
+  - yarn lint
+  - yarn build-prod
+  - yarn build-dev
+  - yarn test
+  # - if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then yarn release-linux; fi
+  # - if [[ "$TRAVIS_OS_NAME" == "osx" ]]; then yarn release-mac; fi
+before_cache:
+  - rm -rf $HOME/.cache/electron-builder/wine

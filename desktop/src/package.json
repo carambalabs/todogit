@@ -1,0 +1,15 @@
+{
+  "name": "Todogit",
+  "productName": "Todogit",
+  "author": {
+    "name": "Pedro Piñera",
+    "email": "pepibumur@gmail.com",
+    "url": "https://github.com/pepibumur"
+  },
+  "scripts": {
+    "postinstall": "npm rebuild --runtime=electron --target=1.6.6 --disturl=https://atom.io/download/atom-shell --build-from-source"
+  },
+  "license": "MIT",
+  "dependencies": {
+  }
+}

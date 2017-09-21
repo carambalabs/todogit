@@ -1,0 +1,69 @@
+{
+  "extends": "tslint:latest",
+  "rules": {
+    "no-invalid-this": [
+      true
+    ],
+    "member-ordering": [
+      "static-before-instance",
+      "variables-before-functions"
+    ],
+    "one-line": [
+      true,
+      "check-open-brace",
+      "check-whitespace"
+    ],
+    "typedef-whitespace": [
+      true,
+      {
+        "call-signature": "nospace",
+        "index-signature": "nospace",
+        "parameter": "nospace",
+        "property-declaration": "nospace",
+        "variable-declaration": "nospace"
+      }
+    ],
+    "variable-name": [
+      true,
+      "ban-keywords"
+    ],
+    "ordered-imports": false,
+    "semicolon": [
+      true,
+      "never"
+    ],
+    "trailing-comma": false,
+    "object-literal-sort-keys": false,
+    "no-var-requires": false,
+    "no-console": false,
+    "max-line-length": false,
+    "eofline": false,
+    "comment-format": false,
+    "no-conditional-assignment": false,
+    "interface-name": false,
+    "member-access": false,
+    "no-shadowed-variable": false,
+    "whitespace": [
+      true,
+      "check-branch",
+      "check-decl",
+      "check-operator",
+      "check-separator",
+      "check-type"
+    ],
+    "no-bitwise": false,
+    "jsdoc-format": false,
+    "no-for-in-array": true,
+    "array-type": [
+      true,
+      "generic"
+    ],
+    "max-classes-per-file": false,
+    "arrow-parens": [
+      true,
+      "ban-single-arg-parens"
+    ],
+    "object-literal-key-quotes": false,
+    "prefer-conditional-expression": false
+  }
+}

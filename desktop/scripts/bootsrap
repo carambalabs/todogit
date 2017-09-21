@@ -1,0 +1,21 @@
+#!/bin/sh
+
+# script/bootstrap: Resolve all dependencies that the application requires to
+#                   run.
+
+set -e
+
+cd "$(dirname "$0")/.."
+
+if [ -z "$(brew --version 2>/dev/null)" ]; then
+  echo "==> Installing Homebrew…"
+  /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+fi
+
+if [ -z "$(yarn --version 2>/dev/null)" ]; then
+  echo "==> Installing Yarn..."
+  brew install yarn
+fi
+
+echo "==> Installing Yarn dependencies…"
+yarn install

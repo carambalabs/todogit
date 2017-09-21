@@ -1,0 +1,8 @@
+node_modules
+dist/main
+dist/renderer
+dll
+yarn-error.log
+release
+.env
+release/
