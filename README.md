@@ -5,3 +5,4 @@ Open source client for managing your GitHub repositories. The client is built us
 
 - [**Desktop**](desktop/)
 - [**iOS/Android**](mobile/)
+- [**Shared**](shared/)
