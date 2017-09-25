@@ -3,7 +3,20 @@
     "jsx": "react-native",
     "baseUrl": "src",
     "outDir": "build",
-    "allowSyntheticDefaultImports": true
+    "allowSyntheticDefaultImports": true,
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "moduleResolution": "node",
+    "module": "es6",
+    "target": "ES6",
+    "strict": true,
+    "noUnusedLocals": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "inlineSources": true,
+    "experimentalDecorators": true,
+    "newLine": "LF",
+    "noEmitOnError": true
   },
   "filesGlob": [
     "typings/index.d.ts",
