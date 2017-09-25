@@ -7,3 +7,7 @@ it("renders without crashing", () => {
   const rendered = renderer.create(<App />).toJSON()
   expect(rendered).toBeTruthy()
 })
+
+it("asdgasa", () => {
+  expect(4).toBe(3)
+})

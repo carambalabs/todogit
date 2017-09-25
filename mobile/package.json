@@ -11,8 +11,10 @@
     "babel-preset-react-native": "^4.0.0",
     "babel-preset-react-native-stage-0": "^1.0.1",
     "concurrently": "^3.5.0",
+    "jest": "^21.1.0",
     "react-test-renderer": "16.0.0-alpha.12",
     "ts-jest": "^21.0.1",
+    "tslint": "^5.7.0",
     "typescript": "^2.5.2"
   },
   "scripts": {
@@ -39,7 +41,12 @@
       "js",
       "jsx",
       "json"
-    ]
+    ],
+    "globals": {
+      "ts-jest": {
+        "useBabelrc": true
+      }
+    }
   },
   "dependencies": {
     "react": "16.0.0-alpha.12",
